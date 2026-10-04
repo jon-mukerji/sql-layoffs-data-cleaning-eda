@@ -1,0 +1,33 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# Local database files / dumps
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.dump
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+~$*
+
+# Optional raw/local datasets
+# Uncomment these if you do not want datasets committed.
+# data/*.csv
+# data/*.xlsx
+# data/*.xls
